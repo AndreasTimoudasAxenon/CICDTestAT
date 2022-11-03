@@ -110,7 +110,7 @@ jobs:
             - name: 'Installing java'
               run: sudo apt-get install openjdk-8-jdk
 
-            Install SFDX scanner
+            # Install SFDX scanner
             - name: 'Installing SFDX scanner'
               run: sfdx plugins:install @salesforce/sfdx-scanner
 
